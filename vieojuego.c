@@ -10,7 +10,7 @@ int calcularCosto(int cantidadVidas) {
 }
 
 int pagarCompra(int *saldo, int costo) {
-    if (*saldo > costo) {
+    if (*saldo >= costo) {
         *saldo = *saldo - costo;
         return 1;
     }
