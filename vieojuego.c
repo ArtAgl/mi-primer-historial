@@ -39,5 +39,4 @@ int main(void) {
 
     return 0;
 }
-
-//*solo le cambié lo solicitado, no lo copie y pegue varias veces*//
+// Función para calcular costo.
